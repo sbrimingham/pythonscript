@@ -1,0 +1,113 @@
+#Scarlett Bouzeid 
+>>> #list practice
+>>> thislist = ["bread","milk","cheese","chip","dip","apples","bread","chip","candy","chocolate"]
+>>> print(thislist)
+['bread', 'milk', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate']
+>>> print(thislist[1])
+milk
+>>> print(thislist[9])
+chocolate
+>>> print(thislist[-2])
+candy
+>>> print(thislist[2:5])
+['cheese', 'chip', 'dip']
+>>> print(thislist[-4:-1])
+['bread', 'chip', 'candy']
+>>> print(thislist)
+['bread', 'milk', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate']
+>>> thislist[1] = salad
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+NameError: name 'salad' is not defined
+>>> thislist[1] = "salad"
+>>> print(thislist)
+['bread', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate']
+
+
+
+
+>>> printlist
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+NameError: name 'printlist' is not defined
+>>> print thislist
+['bread', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate']
+>>> if "chip" in thislist
+
+                        ^
+
+>>> thislist.append("beer")
+>>> print(thislist)
+['bread', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate', 'beer']
+>>> thislist.insert(1, "shirt")
+>>> print(thislist)
+['bread', 'shirt', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate', 'beer']
+>>> thislist.remove("beer")
+>>> print(thislist)
+['bread', 'shirt', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy', 'chocolate']
+>>> thislist.pop()
+'chocolate'
+>>> print(thislist)
+['bread', 'shirt', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy']
+>>> del thislist[0]
+>>> print(thislist)
+['shirt', 'salad', 'cheese', 'chip', 'dip', 'apples', 'bread', 'chip', 'candy']
+>>> del thislist
+>>> thislist.clear()
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+NameError: name 'thislist' is not defined
+>>> thislist("chip, "cheese", "chardenay")
+Traceback (  File "<interactive input>", line 1
+    thislist("chip, "cheese", "chardenay")
+                          ^
+SyntaxError: invalid syntax
+>>> thislist = ("chip", "cheese", "dip")
+>>> print(thislist)
+('chip', 'cheese', 'dip')
+>>> mylist = thislist.copy()
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'copy'
+>>> mylist = list(thislist)
+>>> print(mylist)
+['chip', 'cheese', 'dip']
+>>> list3 = thislist + mylist
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+TypeError: can only concatenate tuple (not "list") to tuple
+>>> list1 = ["a", "b", "c"]
+>>> print(list1)
+['a', 'b', 'c']
+>>> list2 = [1,2,3]
+>>> print(list2)
+[1, 2, 3]
+>>> list3 = list1 + list2
+>>> print(list3)
+['a', 'b', 'c', 1, 2, 3]
+>>> for 1 in list2:
+.
+>>> for 1 in list2:
+... 	list1.append(1)
+Traceback (  File "<interactive input>", line 1
+SyntaxError: can't assign to literal
+>>> for 1 in list2:
+... 	list1.append(1)
+Traceback (  File "<interactive input>", line 1
+SyntaxError: can't assign to literal
+>>> for 1 in list2:
+... 	list1.append(1)
+
+>>> for 1 in list2:
+... 	list1.append(1)
+Traceback (  File "<interactive input>", line 1
+SyntaxError: can't assign to literal
+>>> print(list1)
+['a', 'b', 'c']
+>>> list1.extend(list2)
+>>> print(list1)
+['a', 'b', 'c', 1, 2, 3]
+>>> thislist = list(("chip", "cheese", "dip"))
+>>> print(thislist)
+['chip', 'cheese', 'dip']
+>>> 
